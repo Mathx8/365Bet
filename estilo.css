@@ -141,7 +141,12 @@ footer {
 }
 
 .imgGame {
-    width: 70%;
+    width: 60%;
+    height: auto;
+}
+
+.imgGame1 {
+    width: 80%;
     height: auto;
 }
 
