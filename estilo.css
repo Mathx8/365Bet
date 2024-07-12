@@ -167,9 +167,11 @@ footer {
 
 .box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    gap: 10px;
     padding-bottom: 10px;
     border-bottom: 2px solid #027b5b;
 }
