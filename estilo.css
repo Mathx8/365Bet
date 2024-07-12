@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #027b5b;
+    border-radius: 30px;
+    border: 1px solid #292b2f;
+  }
+
+body {
+    background-color: #292b2f;
+    margin: 0%;
+}
+
+h1 {
+    font-family: "Anton", sans-serif;
+    color: yellow;
+}
+
+a {
+    font-family: "Anton", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color:#027b5b;
+    border: 2px solid #027b5b;
+    border-radius: 40% 0% 40%;
+}
+
+header {
+    height: 9vh;
+    background: #027b5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: larger;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(255,239,0,1) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: transparent;
+}
+
+.botaoLogin {
+    font-family: "Anton", sans-serif;
+    font-size: larger;
+    color: white;
+    border: transparent;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.UmQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Partidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.Jogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4%;
+    width: 80vh;
+    height: 15vh;
+    border: 2px solid #027b5b;
+    border-radius: 2%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.time1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.time2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+footer {
+    height: 7vh;
+    background: #027b5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Partidas */
+
+.Game {
+    height: 7vh;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:transparent;
+    border: 2px solid #027b5b;
+    border-radius: 10%;
+}
+
+.imgGame {
+    height: auto;
+    width: 50%;
+}
+
+.aGame {
+    font-size: 2vh;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
