@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
  
     setupSpanClicks('.Apostas .opção', 'color-change');
-    setupSpanClicks('.ApostasCorreto .opção', 'color-change');
+    setupSpanClicks('.ApostasTotalGols .opção2', 'color-change');
     setupSpanClicks('.ApostasMVP .opção', 'color-change');
     setupSpanClicks('.Apostas .opção2', 'color-change');
   });

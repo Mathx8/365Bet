@@ -155,7 +155,7 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-.Apostas, .ApostasCorreto, .ApostasMVP {
+.Apostas, .ApostasTotalGols, .ApostasMVP {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,7 +167,7 @@ footer {
     box-sizing: border-box;
 }
 
-.ApostasCorreto {
+.ApostasTotalGols {
     height: 30vh;
 }
 
